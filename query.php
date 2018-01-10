@@ -114,7 +114,7 @@
             <div class="form-group">
               <label class="control-label col-sm-3" for="kadhid">Kid Adhaar ID(if any):</label>
               <div class="col-sm-6">
-                <input type="text" class="form-control" value="NONE" name="kadhid">
+                <input type="text" class="form-control" placeholder="If Adhaar ID is not present, Type 0" name="kadhid" required>
               </div>
             </div>
             <div class="form-group">
