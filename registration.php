@@ -54,10 +54,10 @@ if(isset($_SESSION['login_admin'])){
             <div class="collapse navbar-collapse">
                 <ul class="nav navbar-nav navbar-right">
                     <li><a href="index.php">Home</a></li>
-                    <li><a href="about-us.html">About Us</a></li>
+                    <li><a href="about-us.php">About Us</a></li>
 					<li><a href="query.php">Register a Query</a></li>
 					<li class="active"><a href="registration.php">Administration</a></li>
-					<li><a href="terms.html">Terms of Use</a></li>
+					<li><a href="maindex.php">Authority</a></li>
                 </ul>
             </div>
         </div>
@@ -73,8 +73,9 @@ if(isset($_SESSION['login_admin'])){
         </div>
     </section><!--/#title-->
 
-<div class="row">
-  <div class="col-sm-5">
+<div class="row" style="min-height:264px;">
+  <div class="col-sm-1"></div>
+  <div class="col-sm-4">
     <section id="registration" class="container">
         <div class="center" role="form">
           <h2>Staff Login</h2>
@@ -95,10 +96,10 @@ if(isset($_SESSION['login_admin'])){
         </div>
     </section><!--/#registration-->
   </div>
-  <div class="col-sm-2"><br><br><br><br><br><br>
+  <div class="col-sm-2"><br><br><br><br><br>
     <center><h4><?php echo $error; ?></h4></center>
   </div>
-  <div class="col-sm-5">
+  <div class="col-sm-4">
     <section id="registration" class="container">
         <div class="center" role="form">
           <h2>Admin Login</h2>
@@ -119,6 +120,7 @@ if(isset($_SESSION['login_admin'])){
         </div>
     </section><!--/#registration-->
   </div>
+  <div class="col-sm-1"></div>
 </div>
 
 

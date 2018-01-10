@@ -44,7 +44,7 @@ if(isset($_SESSION['login_master'])){
             <div class="container">
                 <div class="navbar-header">
 
-                    <a class="navbar-brand" href="maindex.php"><img src="images/hope.png" style="height:80px;width:150px" alt="logo"></a>
+                    <a class="navbar-brand" href="index.php"><img src="images/hope.png" style="height:80px;width:150px" alt="logo"></a>
                 </div>
             </div>
         </header><!--/header-->

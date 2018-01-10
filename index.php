@@ -41,7 +41,7 @@
 .button1:hover {
          color:red;
 }
-.search1{
+.search{
     width: 300px;
     box-sizing: border-box;
     border: 2px solid #ccc;
@@ -86,10 +86,10 @@
             <div class="collapse navbar-collapse">
                 <ul class="nav navbar-nav navbar-right">
                     <li class="active"><a href="index.php">Home</a></li>
-                    <li><a href="about-us.html">About Us</a></li>
+                    <li><a href="about-us.php">About Us</a></li>
 					<li><a href="query.php">Register a Query</a></li>
 					<li><a href="registration.php">Administration</a></li>
-					<li><a href="terms.html">Terms of Use</a></li>
+					<li><a href="maindex.php">Authority</a></li>
                 </ul>
             </div>
         </div>
@@ -101,55 +101,20 @@
                 <li data-target="#main-slider" data-slide-to="1"></li>
                 <li data-target="#main-slider" data-slide-to="2"></li>
             </ol>
+
             <div class="carousel-inner">
-                <div class="item active" style="background-image: url(images/slider/bg1.jpg)">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-sm-12">
-                                <div class="carousel-content centered">
-                                    <h2 class="animation animated-item-1">Powerful and Responsive Web Design</h2>
-                                    <p class="animation animated-item-2">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                <div class="item active" style="background-image: url(images/slider/b1.png)">
                 </div><!--/.item-->
-                <div class="item" style="background-image: url(images/slider/bg2.jpg)">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-sm-12">
-                                <div class="carousel-content center centered">
-                                    <h2 class="boxed animation animated-item-1">Clean, Crisp, Powerful and Responsive Web Design</h2>
-                                    <p class="boxed animation animated-item-2">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
-                                    <br>
-                                    <a class="btn btn-md animation animated-item-3" href="#">Learn More</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+
+                <div class="item" style="background-image: url(images/slider/b2.png)">
                 </div><!--/.item-->
-                <div class="item" style="background-image: url(images/slider/bg3.jpg)">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-sm-6">
-                                <div class="carousel-content centered">
-                                    <h2 class="animation animated-item-1">Powerful and Responsive Web Design Theme</h2>
-                                    <p class="animation animated-item-2">Pellentesque habitant morbi tristique senectus et netus et malesuada fames</p>
-                                    <a class="btn btn-md animation animated-item-3" href="#">Learn More</a>
-                                </div>
-                            </div>
-                            <div class="col-sm-6 hidden-xs animation animated-item-4">
-                                <div class="centered">
-                                    <div class="embed-container">
-                                        <iframe src="//player.vimeo.com/video/69421653?title=0&amp;byline=0&amp;portrait=0&amp;color=a22c2f" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+
+                <div class="item" style="background-image: url(images/slider/b3.png)">
                 </div><!--/.item-->
+
             </div><!--/.carousel-inner-->
         </div><!--/.carousel-->
+
         <a class="prev hidden-xs" href="#main-slider" data-slide="prev">
             <i class="icon-angle-left"></i>
         </a>
@@ -164,7 +129,7 @@
                 <div class="col-md-4 col-sm-6">
                     <div class="media">
                         <div class="pull-left">
-                            <i class="icon-twitter icon-md"></i>
+                            <i class="icon-md"><img src="images/index_logo/ngo.png" alt="Smiley face" height="54" width="42"></i>
                         </div>
                         <div class="media-body">
                             <h3 class="media-heading">2100 NGOs</h3>
@@ -175,7 +140,7 @@
                 <div class="col-md-4 col-sm-6">
                     <div class="media">
                         <div class="pull-left">
-                            <i class="icon-facebook icon-md"></i>
+                            <i class="icon-md"><img src="images/index_logo/children.png" alt="Smiley face" height="50" width="55"></i>
                         </div>
                         <div class="media-body">
                             <h3 class="media-heading">15621 Chidrens</h3>
@@ -186,7 +151,7 @@
                 <div class="col-md-4 col-sm-6">
                     <div class="media">
                         <div class="pull-left">
-                            <i class="icon-google-plus icon-md"></i>
+                            <i class="icon-md"><img src="images/index_logo/city.png" alt="Smiley face" height="48" width="44"></i>
                         </div>
                         <div class="media-body">
                             <h3 class="media-heading">37 Cities</h3>
@@ -198,101 +163,132 @@
         </div>
     </section><!--/#services-->
 
-    <section id="recent-works">
+
+
+    <section id="testimonial" class="alizarin">
         <div class="container">
             <div class="row">
-                <div class="col-md-3">
-                    <h3>What our clients say</h3>
-                    <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+                <div class="col-lg-12">
+                    <div class="center">
+                        <h2><b>To register a Query</b></h2>
+            <p></p>
+                        <p style="font-size:17px">Fill the authenticated details in the form</p>
+                    </div>
+
+                    <div class="gap"></div>
+
+            <div class="col-lg-4">
+            </div>
+
+           <div class="col-lg-4">
+               <div class="center">
+                 <a href="query.html"> <button class="button1" > Register </button> </a>
+             </div>
+           </div>
+                </div>
+            </div>
+
+            <div class="gap"></div>
+            <div class="center">
+                   <p><h3><b>OR</b></h3> </p>
+            </div>
+
+            <div class="gap"></div>
+
+            <div class="col-lg-4">
+            </div>
+
+            <div class="col-lg-4">
+                  <a href="query.html"> <button class="button1" > Find your Child </button> </a>
+            </div>
+
+        </div>
+    </section><!--/#testimonial-->
+
+
+
+
+
+
+
+
+
+
+
+    <section id="recent-works" >
+        <div class="container" style="min-height:250px;">
+            <div class="row">
+                <div class="col-md-4">
+                    <h2>What our clients say</h2>
+                    <br>
                     <div class="btn-group">
                         <a class="btn btn-danger" href="#scroller" data-slide="prev"><i class="icon-angle-left"></i></a>
                         <a class="btn btn-danger" href="#scroller" data-slide="next"><i class="icon-angle-right"></i></a>
+
                     </div>
                     <p class="gap"></p>
                 </div>
-                <div class="col-md-9">
+                <div class="col-md-8">
                     <div id="scroller" class="carousel slide">
                         <div class="carousel-inner">
                             <div class="item active">
                                 <div class="row">
-                                    <div class="col-xs-4">
+                                    <div class="col-xs-5">
                                         <div class="portfolio-item">
                                             <div class="item-inner">
-                                                <img class="img-responsive" src="images/portfolio/recent/item1.png" alt="">
+                                                <img class="img-responsive" src="images/team/sachin.jpg" style="height:273px;width:300px;"alt="">
                                                 <h5>
                                                     Nova - Corporate site template
                                                 </h5>
                                                 <div class="overlay">
-                                                    <a class="preview btn btn-danger" title="Malesuada fames ac turpis egestas" href="images/portfolio/full/item1.jpg" rel="prettyPhoto"><i class="icon-eye-open"></i></a>
+                                                    <a class="preview btn btn-danger" title="View" href="images/team/sachin.jpg" rel="prettyPhoto"><i class="icon-eye-open"></i></a>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-xs-4">
+                                    <div class="col-xs-1"></div>
+                                    <div class="col-xs-5">
                                         <div class="portfolio-item">
                                             <div class="item-inner">
-                                                <img class="img-responsive" src="images/portfolio/recent/item3.png" alt="">
+                                                <img class="img-responsive" src="images/team/mohit.png" style="height:253px;width:300px;"alt="">
                                                 <h5>
                                                     Fornax - Apps site template
                                                 </h5>
                                                 <div class="overlay">
-                                                    <a class="preview btn btn-danger" title="Malesuada fames ac turpis egestas" href="images/portfolio/full/item1.jpg" rel="prettyPhoto"><i class="icon-eye-open"></i></a>
+                                                    <a class="preview btn btn-danger" title="View" href="images/team/mohit.png" rel="prettyPhoto"><i class="icon-eye-open"></i></a>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-xs-4">
-                                        <div class="portfolio-item">
-                                            <div class="item-inner">
-                                                <img class="img-responsive" src="images/portfolio/recent/item2.png" alt="">
-                                                <h5>
-                                                    Flat Theme - Business Theme
-                                                </h5>
-                                                <div class="overlay">
-                                                    <a class="preview btn btn-danger" title="Malesuada fames ac turpis egestas" href="images/portfolio/full/item1.jpg" rel="prettyPhoto"><i class="icon-eye-open"></i></a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
+
                                 </div><!--/.row-->
                             </div><!--/.item-->
                             <div class="item">
                                 <div class="row">
-                                    <div class="col-xs-4">
+                                    <div class="col-xs-5">
                                         <div class="portfolio-item">
                                             <div class="item-inner">
-                                                <img class="img-responsive" src="images/portfolio/recent/item2.png" alt="">
+                                                <img class="img-responsive" src="images/team/lakshay.jpg" style="height:273px;width:300px;"  alt="">
                                                 <h5>
                                                     Flat Theme - Business Theme
                                                 </h5>
                                                 <div class="overlay">
-                                                    <a class="preview btn btn-danger" title="Malesuada fames ac turpis egestas" href="images/portfolio/full/item1.jpg" rel="prettyPhoto"><i class="icon-eye-open"></i></a>
+                                                    <a class="preview btn btn-danger" title="View" href="images/team/lakshay.jpg" rel="prettyPhoto"><i class="icon-eye-open"></i></a>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-xs-4">
+
+                                    <div class="col-xs-1"></div>
+                                    <div class="col-xs-5">
                                         <div class="portfolio-item">
                                             <div class="item-inner">
-                                                <img class="img-responsive" src="images/portfolio/recent/item1.png" alt="">
-                                                <h5>
-                                                    Nova - Corporate site template
-                                                </h5>
-                                                <div class="overlay">
-                                                    <a class="preview btn btn-danger" title="Malesuada fames ac turpis egestas" href="images/portfolio/full/item1.jpg" rel="prettyPhoto"><i class="icon-eye-open"></i></a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-xs-4">
-                                        <div class="portfolio-item">
-                                            <div class="item-inner">
-                                                <img class="img-responsive" src="images/portfolio/recent/item3.png" alt="">
+                                                <img class="img-responsive" src="images/team/pranav.jpg" style="height:273px;width:300px;"alt="">
                                                 <h5>
                                                     Fornax - Apps site template
                                                 </h5>
                                                 <div class="overlay">
-                                                    <a class="preview btn btn-danger" title="Malesuada fames ac turpis egestas" href="images/portfolio/full/item1.jpg" rel="prettyPhoto"><i class="icon-eye-open"></i></a>
+                                                    <a class="preview btn btn-danger" title="View" href="images/team/pranav.jpg" rel="prettyPhoto"><i class="icon-eye-open"></i></a>
                                                 </div>
                                             </div>
                                         </div>
@@ -306,54 +302,7 @@
         </div>
     </section><!--/#recent-works-->
 
-    <section id="testimonial" class="alizarin">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="center">
-                        <h2><b>To register a Query</b></h2>
-						<p></p>
-                        <p style="font-size:17px">Fill the authenticated details in the form</p>
-                    </div>
 
-                    <div class="gap"></div>
-
-					<div class="col-lg-4">
-					</div>
-
-				   <div class="col-lg-4">
-				    <div class="center">
-					<a href="query.html"> <button class="button1" > Register </button> </a>
-					</div>
-					</div>
-                </div>
-            </div>
-
-		<div class="gap"></div>
-
-		    <div class="center">
-					<p><h3><b>OR</b></h3> </p>
-			</div>
-
-			<div class="gap"></div>
-
-			<div class="col-lg-4">
-			</div>
-
-			<div class="col-lg-4">
-
-                    <form role="form">
-                        <div class="input-group">
-                            <input type="text" class="search1" autocomplete="off" placeholder="Search  NGOs  by  location">
-                            <span class="input-group-btn">
-                                <button class="go1"  type="button">Go!</button>
-                            </span>
-                        </div>
-                    </form>
-			</div>
-
-        </div>
-    </section><!--/#testimonial-->
 
 
     <footer id="footer" class="midnight-blue">

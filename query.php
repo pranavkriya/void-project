@@ -1,6 +1,7 @@
 <?php
-  include 'parent_insert.php';
+
   include 'sendmail.php';
+  include 'parent_insert.php';
  ?>
 
 <!DOCTYPE html>
@@ -41,10 +42,10 @@
             <div class="collapse navbar-collapse">
                 <ul class="nav navbar-nav navbar-right">
                     <li><a href="index.php">Home</a></li>
-                    <li><a href="about-us.html">About Us</a></li>
+                    <li><a href="about-us.php">About Us</a></li>
 					<li class="active" ><a href="query.php">Register a Query</a></li>
 					<li><a href="registration.php">Administration</a></li>
-					<li><a href="terms.html">Terms of Use</a></li>
+					<li><a href="maindex.php">Authority</a></li>
                 </ul>
             </div>
         </div>
@@ -113,7 +114,7 @@
             <div class="form-group">
               <label class="control-label col-sm-3" for="kadhid">Kid Adhaar ID(if any):</label>
               <div class="col-sm-6">
-                <input type="text" class="form-control" placeholder="Enter kid's Adhaar ID" name="kadhid">
+                <input type="text" class="form-control" value="NONE" name="kadhid">
               </div>
             </div>
             <div class="form-group">
@@ -126,7 +127,7 @@
             <div class="form-group">
               <div class="text-center">
                 <button type="submit" name="submit" class="btn btn-default">Submit</button><br>
-                <span><?php echo $error; ?></span><span>. <?php echo $msg; ?></span>
+                <span><?php echo $error; ?></span>
               </div>
             </div>
       </form>
