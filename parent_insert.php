@@ -1,5 +1,6 @@
 <?php
-
+$error = '';
+if(isset($_POST['submit'])){
 include "connect.php";
 
 $adhid = $_POST['adhid'];
@@ -27,13 +28,13 @@ if(substr($imageType,0,5) == "image" && substr($firType,0,5) == "image"){
   if(!mysql_query($insert)){
     echo "Error" .mysql_error();
   }else{
-      echo "Data saved success";
+      $error = "Your query has been submitted";
   }
 }else{
-  echo "Only images are allowed";
+  $error = "Only images are allowed";
 }
 
-
+}
 
 
 ?>

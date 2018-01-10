@@ -1,3 +1,8 @@
+<?php
+  include 'parent_insert.php';
+  include 'sendmail.php';
+ ?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -31,14 +36,14 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.html"><img src="images/hope.png" style="height:80px;width:150px" alt="logo"></a>
+                <a class="navbar-brand" href="index.php"><img src="images/hope.png" style="height:80px;width:150px" alt="logo"></a>
             </div>
             <div class="collapse navbar-collapse">
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.php">Home</a></li>
                     <li><a href="about-us.html">About Us</a></li>
-					<li class="active" ><a href="query.html">Register a Query</a></li>
-					<li><a href="registration.html">Administration</a></li>
+					<li class="active" ><a href="query.php">Register a Query</a></li>
+					<li><a href="registration.php">Administration</a></li>
 					<li><a href="terms.html">Terms of Use</a></li>
                 </ul>
             </div>
@@ -56,7 +61,7 @@
     </section><!--/#title-->
 
     <section id="parent_form" class="container">
-      <form class="form-horizontal" action="parent_insert.php" method="POST" enctype="multipart/form-data">
+      <form class="form-horizontal" action="" method="POST" enctype="multipart/form-data">
         <div class="form-group">
               <label class="control-label col-sm-3" for="adhid">Adhaar ID:</label>
               <div class="col-sm-6">
@@ -72,37 +77,37 @@
             <div class="form-group">
               <label class="control-label col-sm-3" for="contact">Contact:</label>
               <div class="col-sm-6">
-                <input type="text" class="form-control" placeholder="Enter your Phone NO." name="contact">
+                <input type="text" class="form-control" placeholder="Enter your Phone NO." name="contact" required>
               </div>
             </div>
             <div class="form-group">
               <label class="control-label col-sm-3" for="email">E-Mail:</label>
               <div class="col-sm-6">
-                <input type="email" class="form-control" placeholder="Enter Email" name="email">
+                <input type="email" class="form-control" placeholder="Enter Email" name="email" required>
               </div>
             </div>
             <div class="form-group">
               <label class="control-label col-sm-3" for="address">Address:</label>
               <div class="col-sm-6">
-                <input type="text" class="form-control" placeholder="Enter your Address" name="address">
+                <input type="text" class="form-control" placeholder="Enter your Address" name="address" required>
               </div>
             </div>
             <div class="form-group">
               <label class="control-label col-sm-3" for="pwd">FIR Photo:</label>
               <div class="col-sm-6">
-                <input type="file" class="form-control" name="fir">
+                <input type="file" class="form-control" name="fir" required>
               </div>
             </div>
             <div class="form-group">
               <label class="control-label col-sm-3" for="location">Last Seen Location:</label>
               <div class="col-sm-6">
-                <input type="text" class="form-control" placeholder="Enter Last seen Location" name="last_seen_location">
+                <input type="text" class="form-control" placeholder="Enter Last seen Location" name="last_seen_location" required>
               </div>
             </div>
             <div class="form-group">
               <label class="control-label col-sm-3" for="time">Last Seen Time:</label>
               <div class="col-sm-6">
-                <input type="datetime-local" class="form-control" placeholder="Enter Last seen Time" name="last_seen_time">
+                <input type="datetime-local" class="form-control" placeholder="Enter Last seen Time" name="last_seen_time" required>
               </div>
             </div>
             <div class="form-group">
@@ -114,21 +119,19 @@
             <div class="form-group">
               <label class="control-label col-sm-3" for="kadhid">Kid's Picture:</label>
               <div class="col-sm-6">
-                <input type="file" class="form-control" name="image">
+                <input type="file" class="form-control" name="image" required>
               </div>
             </div>
             <br>
             <div class="form-group">
               <div class="text-center">
-                <button type="submit" name="submit" class="btn btn-default">Submit</button>
+                <button type="submit" name="submit" class="btn btn-default">Submit</button><br>
+                <span><?php echo $error; ?></span><span>. <?php echo $msg; ?></span>
               </div>
             </div>
       </form>
     </section>
 
-<!-- if(isset($_POST['submit'])){
-  parent_insert.php
-} -->
 
     <footer id="footer" class="midnight-blue">
         <div class="container">

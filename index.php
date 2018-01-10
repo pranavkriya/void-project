@@ -81,13 +81,13 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-               <a class="navbar-brand" href="index.html"><img src="images/hope.png" style="height:80px;width:150px" alt="logo"></a>
+               <a class="navbar-brand" href="index.php"><img src="images/hope.png" style="height:80px;width:150px" alt="logo"></a>
             </div>
             <div class="collapse navbar-collapse">
                 <ul class="nav navbar-nav navbar-right">
-                    <li class="active"><a href="index.html">Home</a></li>
+                    <li class="active"><a href="index.php">Home</a></li>
                     <li><a href="about-us.html">About Us</a></li>
-					<li><a href="query.html">Register a Query</a></li>
+					<li><a href="query.php">Register a Query</a></li>
 					<li><a href="registration.php">Administration</a></li>
 					<li><a href="terms.html">Terms of Use</a></li>
                 </ul>

@@ -50,6 +50,7 @@ include 'addn.php';
           <div class="collapse navbar-collapse">
               <ul class="nav navbar-nav navbar-right">
                   <li><a href="ngolist.php">NGOs Info</a></li>
+                  <li><a href="macases.php">Cases Info</a></li>
                   <li class="active"><a href="addngo.php">Add NGOs</a></li>
                   <li><a href="logout.php">Logout</a></li>
               </ul>

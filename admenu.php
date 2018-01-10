@@ -12,6 +12,7 @@
         </div>
         <div class="collapse navbar-collapse">
             <ul class="nav navbar-nav navbar-right">
+              <li><a href="cases.php">Cases</a></li>
               <li class="dropdown">
                 <a class="dropdown-toggle" data-toggle="dropdown" href="#">Staff
                   <span class="caret"></span></a>
