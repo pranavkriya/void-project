@@ -9,7 +9,7 @@ include 'masession.php';
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
-    <title>Registration | Flat Theme</title>
+    <title>HOPE | Authority</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/font-awesome.min.css" rel="stylesheet">
     <link href="css/prettyPhoto.css" rel="stylesheet">
@@ -75,35 +75,36 @@ while($res = mysql_fetch_assoc($query)){
   $q = mysql_query("SELECT * from child where ngoid='$ngoid'");
   while($get = mysql_fetch_assoc($q)){
   $kid = $get['kid'];
-    // echo $kid;
-    $query = mysql_query("SELECT * from cases where kid='$kid'");
-    $row = mysql_fetch_assoc($query);
-    if($row){
-      ?>
-      <br><br>
+    //echo $kid;
+    $cases = mysql_query("SELECT * from cases where kid='$kid'");
+    while($fetch=mysql_fetch_assoc($cases)){
+      if($fetch){
+        ?>
+        <br><br>
         <div class="container">
           <div class="row">
             <div class="col-sm-2"></div>
             <div class="col-sm-4">
-              <p><strong>Case ID : </strong><?php echo $row['caseid']; ?></p>
-              <p><strong>Kid ID : </strong><?php echo $row['kid']; ?></p>
+              <p><strong>Case ID : </strong><?php echo $fetch['caseid']; ?></p>
+              <p><strong>Kid ID : </strong><?php echo $fetch['kid']; ?></p>
               <p><strong>NGO ID : </strong><?php echo $ngoid; ?></p>
             </div>
             <div class="col-sm-4">
-              <p><strong>Date of Hearing : </strong><?php echo $row['date_of_hearing']; ?></p>
-              <p><strong>Case Details : </strong><?php echo $row['case_info']; ?></p>
+              <p><strong>Date of Hearing : </strong><?php echo $fetch['date_of_hearing']; ?></p>
+              <p><strong>Case Details : </strong><?php echo $fetch['case_info']; ?></p>
             </div>
             <div class="col-sm-2"></div>
           </div>
         </div>
         <hr width="70%">
-      <?php
-    }else{
-      ?>
-      <center><h2>No cases are pending.</h2></center>
-      <?php
-    }
+        <?php
+        }else{
+        ?>
+        <center><h2>No cases are pending.</h2></center>
+        <?php
+        }
   }
+}
 }
 ?>
 
