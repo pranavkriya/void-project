@@ -1,3 +1,7 @@
+<?php
+include 'masession.php';
+ ?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,7 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
-    <title>Registration | Flat Theme</title>
+    <title>HOPE | Authority</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/font-awesome.min.css" rel="stylesheet">
     <link href="css/prettyPhoto.css" rel="stylesheet">
@@ -57,7 +61,7 @@
      <div class="container">
          <div class="row">
              <div class="col-sm-6">
-                 <h1>Welcome user!!</h1>
+                 <h1>Welcome <?php echo $row['name'];  ?></h1>
              </div>
          </div>
      </div>
@@ -70,7 +74,7 @@
       <a href="ngolist.php"><button id="sub" class="btn btn-success btn-md btn-block" name="ngoinfo">NGOs Info</button><br></a>
     </div>
     <div class="col-sm-3">
-      <a href="#"><button id="sub" class="btn btn-success btn-md btn-block" name="addngo">Add NGOs</button><br></a>
+      <a href="addngo.php"><button id="sub" class="btn btn-success btn-md btn-block" name="addngo">Add NGOs</button><br></a>
     </div>
     <div class="col-sm-3">
         <a href="macases.php"><button id="sub" class="btn btn-success btn-md btn-block" name="macases">Cases Info</button><br></a>
