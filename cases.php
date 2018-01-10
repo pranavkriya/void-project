@@ -73,6 +73,7 @@ while($get = mysql_fetch_assoc($q)){
       <div class="col-sm-4">
         <p><strong>Case ID : </strong><?php echo $row['caseid']; ?></p>
         <p><strong>Kid ID : </strong><?php echo $row['kid']; ?></p>
+        <p><strong>Kid Name : </strong><?php echo $get['name']; ?></p>
       </div>
       <div class="col-sm-4">
         <p><strong>Date of Hearing : </strong><?php echo $row['date_of_hearing']; ?></p>
