@@ -218,7 +218,7 @@
     <section id="recent-works" >
         <div class="container" style="min-height:250px;">
             <div class="row">
-                <div class="col-md-4">
+                <div class="col-md-3">
                     <h2>What our clients say</h2>
                     <br>
                     <div class="btn-group">
@@ -228,73 +228,130 @@
                     </div>
                     <p class="gap"></p>
                 </div>
-                <div class="col-md-8">
+
+
+
+
+                <div class="col-md-9">
                     <div id="scroller" class="carousel slide">
                         <div class="carousel-inner">
+
+
+
                             <div class="item active">
                                 <div class="row">
-                                    <div class="col-xs-5">
+
+                                    <div class="col-xs-4">
                                         <div class="portfolio-item">
                                             <div class="item-inner">
-                                                <img class="img-responsive" src="images/team/sachin.jpg" style="height:273px;width:300px;"alt="">
-                                                <h5>
+
+                                                <h3>
                                                     Nova - Corporate site template
-                                                </h5>
-                                                <div class="overlay">
-                                                    <a class="preview btn btn-danger" title="View" href="images/team/sachin.jpg" rel="prettyPhoto"><i class="icon-eye-open"></i></a>
-                                                </div>
+
+                                                    <br><br><br><br><br><br><br><br><br>
+                                                </h3>
+
+                                                <h5 style="text-align:right;">--- &nbsp;Sachin Gupta</h5><br>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-xs-1"></div>
-                                    <div class="col-xs-5">
+
+
+
+                                    <div class="col-xs-4">
                                         <div class="portfolio-item">
                                             <div class="item-inner">
-                                                <img class="img-responsive" src="images/team/mohit.png" style="height:253px;width:300px;"alt="">
-                                                <h5>
-                                                    Fornax - Apps site template
-                                                </h5>
-                                                <div class="overlay">
-                                                    <a class="preview btn btn-danger" title="View" href="images/team/mohit.png" rel="prettyPhoto"><i class="icon-eye-open"></i></a>
-                                                </div>
+
+                                                <h3>
+                                                    Nova - Corporate site template
+
+                                                    <br><br><br><br><br><br><br><br><br>
+                                                </h3>
+
+                                                <h5 style="text-align:right;">--- &nbsp;Sachin Gupta</h5><br>
                                             </div>
                                         </div>
                                     </div>
+
+
+                                    <div class="col-xs-4">
+                                        <div class="portfolio-item">
+                                            <div class="item-inner">
+
+                                                <h3>
+                                                    Nova - Corporate site template
+
+                                                    <br><br><br><br><br><br><br><br><br>
+                                                </h3>
+
+                                                <h5 style="text-align:right;">--- &nbsp;Sachin Gupta</h5><br>
+                                            </div>
+                                        </div>
+                                    </div>
+
 
                                 </div><!--/.row-->
                             </div><!--/.item-->
+
+
+
+
+
                             <div class="item">
                                 <div class="row">
-                                    <div class="col-xs-5">
-                                        <div class="portfolio-item">
-                                            <div class="item-inner">
-                                                <img class="img-responsive" src="images/team/lakshay.jpg" style="height:273px;width:300px;"  alt="">
-                                                <h5>
-                                                    Flat Theme - Business Theme
-                                                </h5>
-                                                <div class="overlay">
-                                                    <a class="preview btn btn-danger" title="View" href="images/team/lakshay.jpg" rel="prettyPhoto"><i class="icon-eye-open"></i></a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
 
-                                    <div class="col-xs-1"></div>
-                                    <div class="col-xs-5">
-                                        <div class="portfolio-item">
-                                            <div class="item-inner">
-                                                <img class="img-responsive" src="images/team/pranav.jpg" style="height:273px;width:300px;"alt="">
-                                                <h5>
-                                                    Fornax - Apps site template
-                                                </h5>
-                                                <div class="overlay">
-                                                    <a class="preview btn btn-danger" title="View" href="images/team/pranav.jpg" rel="prettyPhoto"><i class="icon-eye-open"></i></a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
+
+                                  <div class="col-xs-4">
+                                      <div class="portfolio-item">
+                                          <div class="item-inner">
+
+                                              <h3>
+                                                  Nova - Corporate site template
+
+                                                  <br><br><br><br><br><br><br><br><br>
+                                              </h3>
+
+                                              <h5 style="text-align:right;">--- &nbsp;Sachin Gupta</h5><br>
+                                          </div>
+                                      </div>
+                                  </div>
+
+
+
+
+                                  <div class="col-xs-4">
+                                      <div class="portfolio-item">
+                                          <div class="item-inner">
+
+                                              <h3>
+                                                  Nova - Corporate site template
+
+                                                  <br><br><br><br><br><br><br><br><br>
+                                              </h3>
+
+                                              <h5 style="text-align:right;">--- &nbsp;Sachin Gupta</h5><br>
+                                          </div>
+                                      </div>
+                                  </div>
+
+                                  <div class="col-xs-4">
+                                      <div class="portfolio-item">
+                                          <div class="item-inner">
+
+                                              <h3>
+                                                  Nova - Corporate site template
+
+                                                  <br><br><br><br><br><br><br><br><br>
+                                              </h3>
+
+                                              <h5 style="text-align:right;">--- &nbsp;Sachin Gupta</h5><br>
+                                          </div>
+                                      </div>
+                                  </div>
+
                                 </div>
                             </div><!--/.item-->
+
                         </div>
                     </div>
                 </div>
