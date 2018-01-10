@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
-    <title>Home | Flat Theme</title>
+    <title>HOPE | Home </title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/font-awesome.min.css" rel="stylesheet">
     <link href="css/prettyPhoto.css" rel="stylesheet">
@@ -216,7 +216,7 @@
 
 
     <section id="recent-works" >
-        <div class="container" style="min-height:250px;">
+        <div class="container">
             <div class="row">
                 <div class="col-md-3">
                     <h2>What our clients say</h2>

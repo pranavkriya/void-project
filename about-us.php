@@ -101,27 +101,27 @@
         <div id="meet-the-team" class="row">
 		    <div class="col-md-3 col-xs-6">
                 <div class="center">
-                    <p><img class="img-responsive img-thumbnail img-circle" src="images/team/sachin.jpg" style="height:250px;width:250px;" alt="" ></p>
+                    <p><img class="img-responsive img-thumbnail img-circle" src="images/team/sachin.png" alt="" ></p>
                     <h3><a href="">Sachin Gupta</a><small class="designation muted" >Senior Vice President</small></h3>
                 </div>
             </div>
 
             <div class="col-md-3 col-xs-6">
                 <div class="center">
-                    <p><img class="img-responsive img-thumbnail img-circle" src="images/team/priyanshi.png" style="height:250px;width:230px;" alt="" ></p>
+                    <p><img class="img-responsive img-thumbnail img-circle" src="images/team/priyanshi.png" alt="" ></p>
                     <h3><a href="https://www.linkedin.com/in/priyanshi-agrawal-667a3069/" target="_blank">Priyanshi Agrawal</a><small class="designation muted">Senior Vice President</small></h3>
                 </div>
             </div>
 
             <div class="col-md-3 col-xs-6">
                 <div class="center">
-                    <p><img class="img-responsive img-thumbnail img-circle" src="images/team/lakshay.jpg" style="height:250px;width:250px;" alt="" ></p>
+                    <p><img class="img-responsive img-thumbnail img-circle" src="images/team/lakshay.png" alt="" ></p>
                     <h3><a href="https://www.facebook.com/hctiboy?ref=br_rs">Lakshay Khandelwal</a><small class="designation muted">Senior Vice President</small></h3>
                 </div>
             </div>
             <div class="col-md-3 col-xs-6">
                 <div class="center">
-                    <p><img class="img-responsive img-thumbnail img-circle" src="images/team/mayaank.jpg" style="height:250px;width:230px;" alt="" ></p>
+                    <p><img class="img-responsive img-thumbnail img-circle" src="images/team/mayaank.png" alt="" ></p>
                     <h3><a href="https://www.linkedin.com/in/mayaank-gupta-a9986512a/" target="_blank">Mayaank Gupta</a><small class="designation muted">Senior Vice President</small></h3>
                 </div>
             </div>
@@ -132,20 +132,20 @@
 		<div id="meet-the-team" class="row">
             <div class="col-md-4 col-xs-6">
                 <div class="center">
-                    <p><img class="img-responsive img-thumbnail img-circle" src="images/team/mohit.png" style="height:230px;width:250px;" alt="" ></p>
+                    <p><img class="img-responsive img-thumbnail img-circle" src="images/team/mohit.png" alt="" ></p>
                     <h3><a href="https://www.linkedin.com/in/mohit-sharma-29826b79/" target="_blank">Mohit Sharma</a><small class="designation muted">Senior Vice President</small></h3>
                 </div>
             </div>
 
             <div class="col-md-4 col-xs-6">
                 <div class="center">
-                    <p><img class="img-responsive img-thumbnail img-circle" src="images/team/pranav.jpg" style="height:250px;width:250px;" alt="" ></p>
+                    <p><img class="img-responsive img-thumbnail img-circle" src="images/team/pranav.png" alt="" ></p>
                     <h3><a href="https://www.linkedin.com/in/pranavgarg1506/" target="_blank">Pranav Garg</a><small class="designation muted">Senior Vice President</small></h3>
                 </div>
             </div>
             <div class="col-md-4 col-xs-6">
                 <div class="center">
-                    <p><img class="img-responsive img-thumbnail img-circle" src="images/team/priyank.png" style="height:250px;width:250px;" alt="" ></p>
+                    <p><img class="img-responsive img-thumbnail img-circle" src="images/team/priyank.png" alt="" ></p>
                     <h3><a href="https://www.linkedin.com/in/priyank-makwana-9183238b/" target="_blank">Priyank Makwana</a><small class="designation muted">Senior Vice President</small></h3>
                 </div>
             </div>
