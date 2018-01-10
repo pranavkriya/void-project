@@ -35,7 +35,7 @@ if(isset($_SESSION['login_admin'])){
     <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png">
 
 	<script src="js/jquery-1.11.1.min.js" type="application/javascript"></script>
-
+  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 
 
 </head><!--/head-->
@@ -87,6 +87,7 @@ if(isset($_SESSION['login_admin'])){
                 <div class="form-group">
                     <input type="password" id="pass" name="pass" placeholder="Password" class="form-control">
                 </div>
+                <div class="g-recaptcha" data-sitekey="6Lc6HEAUAAAAAMBosQ5qH7BJEqp0UHMrO-_t_ll_"></div><br>
                 <div class="form-group">
                     <button id="sub" class="btn btn-success btn-md btn-block" name="submit">Log In</button>
 
@@ -111,6 +112,7 @@ if(isset($_SESSION['login_admin'])){
                 <div class="form-group">
                     <input type="password" id="pass" name="pass" placeholder="Password" class="form-control">
                 </div>
+                <div class="g-recaptcha" data-sitekey="6Lc6HEAUAAAAAMBosQ5qH7BJEqp0UHMrO-_t_ll_"></div><br>
                 <div class="form-group">
                     <button id="sub" class="btn btn-success btn-md btn-block" name="submit">Log In</button>
 
