@@ -63,7 +63,7 @@ if(isset($_SESSION['login_master'])){
     </section><!--/#title-->
 
 <br><br>
-      <div class="container">
+      <div class="container" style="min-height:360px;">
         <div class="row">
           <div class="col-sm-4"></div>
           <div class="col-sm-4">

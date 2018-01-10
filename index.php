@@ -216,7 +216,7 @@
 
 
     <section id="recent-works" >
-        <div class="container" style="min-height:250px;">
+        <div class="container">
             <div class="row">
                 <div class="col-md-3">
                     <h2>What our clients say</h2>
