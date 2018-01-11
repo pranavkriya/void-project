@@ -80,9 +80,9 @@ $id = $row['ngoid'];
               </div>
             </div>
             <div class="form-group">
-              <label class="control-label col-sm-3" for="age_when_found">Age when found:</label>
+              <label class="control-label col-sm-3" for="dob">DOB:</label>
               <div class="col-sm-6">
-                <input type="number" class="form-control" placeholder="Age when found" name="age_when_found">
+                <input type="date" class="form-control" placeholder="Enter Date of Birth" name="dob">
               </div>
             </div>
             <div class="form-group">

@@ -177,12 +177,18 @@
 
                     <div class="gap"></div>
 
-            <div class="col-lg-4">
+            <div class="col-lg-2">
             </div>
 
            <div class="col-lg-4">
                <div class="center">
                  <a href="query.php"> <button class="button1" > Register </button> </a>
+             </div>
+           </div>
+           <div class="col-lg-4">
+               <div class="center">
+                 <a href="search.php"> <button class="button1" > Find your Child </button> </a>
+
              </div>
            </div>
                 </div>
@@ -199,7 +205,7 @@
             </div>
 
             <div class="col-lg-4">
-                  <a href="search.php"> <button class="button1" > Find your Child </button> </a>
+                  <a href="report.php"> <button class="button1" > Report </button> </a>
             </div>
 
         </div>

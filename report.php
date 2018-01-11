@@ -1,7 +1,5 @@
 <?php
-
-  include 'sendmail.php';
-  include 'parent_insert.php';
+  include 'report_insert.php';
  ?>
 
 <!DOCTYPE html>
@@ -11,7 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
-    <title>Query | Flat Theme</title>
+    <title>Report | Flat Theme</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/font-awesome.min.css" rel="stylesheet">
     <link href="css/prettyPhoto.css" rel="stylesheet">
@@ -55,7 +53,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-6">
-                    <h1>Register a Query!</h1>
+                    <h1>Enter a Report!</h1>
                 </div>
             </div>
         </div>
@@ -64,61 +62,31 @@
     <section id="parent_form" class="container">
       <form class="form-horizontal" action="" method="POST" enctype="multipart/form-data">
         <div class="form-group">
-              <label class="control-label col-sm-3" for="adhid">Adhaar ID:</label>
+              <label class="control-label col-sm-3" for="adhid">Adhaar ID of Reporter:</label>
               <div class="col-sm-6">
-                <input type="text" class="form-control" placeholder="Enter Adhaar Id" name="adhid">
+                <input type="text" class="form-control" placeholder="Enter Adhaar Id" name="adhid" required>
               </div>
             </div>
             <div class="form-group">
-              <label class="control-label col-sm-3" for="name">Name:</label>
+              <label class="control-label col-sm-3" for="place_found">Place Found:</label>
               <div class="col-sm-6">
-                <input type="text" class="form-control" placeholder="Enter Name" name="name">
+                <input type="text" class="form-control" placeholder="Enter Place found" name="place_found" required>
               </div>
             </div>
             <div class="form-group">
-              <label class="control-label col-sm-3" for="contact">Contact:</label>
+              <label class="control-label col-sm-3" for="date_when_found">Date when Found:</label>
               <div class="col-sm-6">
-                <input type="text" class="form-control" placeholder="Enter your Phone NO." name="contact" required>
+                <input type="date" class="form-control" placeholder="Enter Date when found" name="date_when_found" required>
               </div>
             </div>
             <div class="form-group">
-              <label class="control-label col-sm-3" for="email">E-Mail:</label>
+              <label class="control-label col-sm-3" for="cmt">Any Message:</label>
               <div class="col-sm-6">
-                <input type="email" class="form-control" placeholder="Enter Email" name="email" required>
+                <input type="textarea" class="form-control" placeholder="Your message" name="cmt">
               </div>
             </div>
             <div class="form-group">
-              <label class="control-label col-sm-3" for="address">Address:</label>
-              <div class="col-sm-6">
-                <input type="text" class="form-control" placeholder="Enter your Address" name="address" required>
-              </div>
-            </div>
-            <div class="form-group">
-              <label class="control-label col-sm-3" for="firno">FIR Number:</label>
-              <div class="col-sm-6">
-                <input type="text" class="form-control" placeholder="Enter FIR Number" name="firno" required>
-              </div>
-            </div>
-            <div class="form-group">
-              <label class="control-label col-sm-3" for="location">Last Seen Location:</label>
-              <div class="col-sm-6">
-                <input type="text" class="form-control" placeholder="Enter Last seen Location" name="last_seen_location" required>
-              </div>
-            </div>
-            <div class="form-group">
-              <label class="control-label col-sm-3" for="time">Last Seen Time:</label>
-              <div class="col-sm-6">
-                <input type="datetime-local" class="form-control" placeholder="Enter Last seen Time" name="last_seen_time" required>
-              </div>
-            </div>
-            <div class="form-group">
-              <label class="control-label col-sm-3" for="kadhid">Kid Adhaar ID(if any):</label>
-              <div class="col-sm-6">
-                <input type="text" class="form-control" placeholder="If Adhaar ID is not present, Type 0" name="kadhid" required>
-              </div>
-            </div>
-            <div class="form-group">
-              <label class="control-label col-sm-3" for="kadhid">Kid's Picture:</label>
+              <label class="control-label col-sm-3" for="image">Kid's Picture:</label>
               <div class="col-sm-6">
                 <input type="file" class="form-control" name="image" required>
               </div>

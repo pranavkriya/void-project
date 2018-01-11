@@ -60,6 +60,7 @@ $ngoid = $row['ngoid'];
 $q = mysql_query("SELECT * from child where ngoid='$ngoid'");
 while($get = mysql_fetch_assoc($q)){
   $kid = $get['kid'];
+  $adhid = $get['adhid'];
 
   $query = mysql_query("SELECT * from cases where kid='$kid'");
   $row = mysql_fetch_assoc($query);
@@ -71,11 +72,12 @@ while($get = mysql_fetch_assoc($q)){
     <div class="row">
       <div class="col-sm-2"></div>
       <div class="col-sm-4">
-        <p><strong>Case ID : </strong><?php echo $row['caseid']; ?></p>
+        <p><strong>Kid Adhaar ID : </strong><?php echo $adhid; ?></p>
         <p><strong>Kid ID : </strong><?php echo $row['kid']; ?></p>
         <p><strong>Kid Name : </strong><?php echo $get['name']; ?></p>
       </div>
       <div class="col-sm-4">
+        <p><strong>Case ID : </strong><?php echo $row['caseid']; ?></p>
         <p><strong>Date of Hearing : </strong><?php echo $row['date_of_hearing']; ?></p>
         <p><strong>Case Details : </strong><?php echo $row['case_info']; ?></p>
       </div>

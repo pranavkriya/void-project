@@ -51,11 +51,17 @@
 <br>
 <h1> <center>Search</center></h1><br><br>
   <div class="row center">
-    <div class="col-sm-2"></div>
+    <!-- <div class="col-sm-1"></div> -->
     <div class="col-sm-4">
       <div class="form-group">
-        <label for="age">Enter Age:</label>
-          <input type="text" class="form-control" id="age" name="by_age">
+        <label for="age">Enter Date of Birth:</label>
+          <input type="text" class="form-control" id="age" name="by_dob" placeholder="YYYY-MM-DD">
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="form-group">
+        <label for="age">Enter Adhaar ID:</label>
+          <input type="text" class="form-control" id="age" name="by_adhid">
       </div>
     </div>
     <div class="col-sm-4">
@@ -64,7 +70,7 @@
         <input type="text" class="form-control" id="place" name="by_place">
       </div>
     </div>
-    <div class="col-sm-2"></div>
+    <!-- <div class="col-sm-1"></div> -->
     </div>
 <center><input type="submit" name="submit" value="Search" class="btn btn-default"></center>
   </form>
@@ -72,16 +78,17 @@
 
 <?php
 if(isset($_POST['submit'])){
-  if(empty($_POST['by_age']) && empty($_POST['by_place'])){
+  if(empty($_POST['by_dob']) && empty($_POST['by_place']) && empty($_POST['by_adhid'])){
     ?>
-      <center><h4>Enter anyone or both the fields to search.</h4></center>
+      <center><h4>Enter anyone or all the fields to search.</h4></center>
     <?php
   }else{
     include 'connect.php';
-    $by_age = $_POST['by_age'];
+    $by_dob = $_POST['by_dob'];
+    $by_adhid = $_POST['by_adhid'];
     $by_place = $_POST['by_place'];
 
-    $query = "SELECT * from child WHERE age_when_found LIKE '%$by_age%' AND place_found LIKE '%$by_place%' AND reason='lost'";
+    $query = "SELECT * from child WHERE dob LIKE '%$by_dob%' AND adhid = '$by_adhid' AND place_found = '$by_place' AND reason='lost'";
 
     $sql = $query;
     $res = mysql_query($sql);
@@ -105,11 +112,11 @@ if(isset($_POST['submit'])){
     </div>
     <div class="col-sm-3">
       <p><strong>Place Found : </strong><?php echo $data['place_found']; ?></p>
-      <p><strong>Age when Found : </strong><?php echo $data['age_when_found']; ?></p>
+      <p><strong>Adhaar ID : </strong><?php echo $data['adhid']; ?></p>
     </div>
     <div class="col-sm-2">
       <p><strong>NGO ID : </strong><?php echo $nrow['ngoid']; ?></p>
-      <p><strong>City : </strong><?php echo $nrow['city']; ?></p>
+      <p><strong>NGO City : </strong><?php echo $nrow['city']; ?></p>
     </div>
     </div>
     <hr width="80%">

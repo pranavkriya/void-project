@@ -53,7 +53,7 @@ if(isset($_SESSION['login_admin'])){
      $ngoid = $_POST['ngoid'];
      $adhid = $_POST['adhid'];
      $name = $_POST['name'];
-     $age_when_found = $_POST['age_when_found'];
+     $dob = $_POST['dob'];
      $place_found = $_POST['place_found'];
      $by_whom = $_POST['by_whom'];
      $date_when_found = $_POST['date_when_found'];
@@ -63,7 +63,7 @@ if(isset($_SESSION['login_admin'])){
      $imageData = mysql_real_escape_string(file_get_contents($_FILES["image"]["tmp_name"]));
 
      $status = $_POST['status'];
-
+     // $insert = "INSERT into child values('$kid', '$ngoid', '$adhid', '$name', '$dob', '$place_found', '$by_whom', '$date_when_found' '$reason', '$adhid_whom')";
      $update = "UPDATE child SET adhid='$adhid', name='$name', image='$imageData', status='$status' where kid='$kid'";
      $q = mysql_query($update);
      if(!$q){
@@ -72,6 +72,7 @@ if(isset($_SESSION['login_admin'])){
      $error = "Data edited success";
      }
    ?>
+
 
 
     <section id="title" class="emerald">
@@ -91,7 +92,7 @@ if(isset($_SESSION['login_admin'])){
       include "connect.php";
       $ngoid = $row['ngoid'];
       $kid = $_POST['kid'];
-      $query = mysql_query("SELECT * from child where kid='$kid' AND status='a' AND ngoid='$ngoid'");
+      $query = mysql_query("SELECT last(*) from child where kid='$kid' AND status='a' AND ngoid='$ngoid'");
       $row = mysql_fetch_assoc($query);
       if($row){
         ?>
@@ -133,30 +134,30 @@ if(isset($_SESSION['login_admin'])){
                </div>
 
                <div class="form-group">
-                 <label class="control-label col-sm-3" for="age_when_found">Age when found:</label>
+                 <label class="control-label col-sm-3" for="dob">DOB:</label>
                  <div class="col-sm-8">
-                   <input type="number" class="form-control" value="<?php echo $row['age_when_found']; ?>" name="age_when_found" readonly>
+                   <input type="number" class="form-control" value="<?php echo $row['dob']; ?>" name="dob" readonly>
                  </div>
                </div>
 
                <div class="form-group">
                  <label class="control-label col-sm-3" for="place_found">Place Found:</label>
                  <div class="col-sm-8">
-                   <input type="text" class="form-control" value="<?php echo $row['place_found']; ?>" name="place_found" readonly>
+                   <input type="text" class="form-control" value="<?php echo $row['place_found']; ?>" name="place_found">
                  </div>
                </div>
 
                <div class="form-group">
                  <label class="control-label col-sm-3" for="by_whom">Found by Whom:</label>
                  <div class="col-sm-8">
-                   <input type="text" class="form-control" value="<?php echo $row['by_whom']; ?>" name="by_whom" readonly>
+                   <input type="text" class="form-control" value="<?php echo $row['by_whom']; ?>" name="by_whom">
                  </div>
                </div>
 
                <div class="form-group">
                  <label class="control-label col-sm-3" for="date_when_found">Date when Found:</label>
                  <div class="col-sm-8">
-                   <input type="date" class="form-control" value="<?php echo $row['date_when_found']; ?>" name="date_when_found" readonly>
+                   <input type="date" class="form-control" value="<?php echo $row['date_when_found']; ?>" name="date_when_found">
                  </div>
                </div>
 
@@ -170,7 +171,7 @@ if(isset($_SESSION['login_admin'])){
                <div class="form-group">
                  <label class="control-label col-sm-3" for="adhid_whom">AdhaarID of Founder:</label>
                  <div class="col-sm-8">
-                   <input type="text" class="form-control" value="<?php echo $row['adhid_whom']; ?>" name="adhid_whom" readonly>
+                   <input type="text" class="form-control" value="<?php echo $row['adhid_whom']; ?>" name="adhid_whom">
                  </div>
                </div>
 
