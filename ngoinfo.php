@@ -56,7 +56,8 @@ $countc = mysql_fetch_assoc($cc);
 
  ?>
 
-<div class="container">
+<div class="container" style="min-height:470px;">
+  <br><br><br>
   <center><h2>NGO ID - <?php echo $data['ngoid']; ?></h2></center>
   <hr width="70%">
   <div class="row">

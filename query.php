@@ -78,7 +78,7 @@
             <div class="form-group">
               <label class="control-label col-sm-3" for="contact">Contact:</label>
               <div class="col-sm-6">
-                <input type="text" class="form-control" placeholder="Enter your Phone NO." name="contact" required>
+                <input type="text" class="form-control" placeholder="Enter your Phone NO." name="contact" required   maxlength="10">
               </div>
             </div>
             <div class="form-group">
@@ -114,7 +114,7 @@
             <div class="form-group">
               <label class="control-label col-sm-3" for="kadhid">Kid Adhaar ID(if any):</label>
               <div class="col-sm-6">
-                <input type="text" class="form-control" placeholder="If Adhaar ID is not present, Type 0" name="kadhid" required>
+                <input type="text" class="form-control" placeholder="If Adhaar ID is not present, Type 0" name="kadhid" required maxlength="12">
               </div>
             </div>
             <div class="form-group">

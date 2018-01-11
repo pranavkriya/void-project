@@ -55,13 +55,13 @@
     <div class="col-sm-4">
       <div class="form-group">
         <label for="age">Enter Date of Birth:</label>
-          <input type="text" class="form-control" id="age" name="by_dob" placeholder="YYYY-MM-DD">
+          <input type="date" class="form-control" id="age" name="by_dob" placeholder="YYYY-MM-DD">
       </div>
     </div>
     <div class="col-sm-4">
       <div class="form-group">
         <label for="age">Enter Adhaar ID:</label>
-          <input type="text" class="form-control" id="age" name="by_adhid">
+          <input type="text" class="form-control" id="age" name="by_adhid"   maxlength="12">
       </div>
     </div>
     <div class="col-sm-4">

@@ -79,19 +79,19 @@ session_start();
             <div class="form-group">
               <label class="control-label col-sm-3" for="adhid">Adhaar ID:</label>
               <div class="col-sm-6">
-                <input type="text" class="form-control" placeholder="Enter Adhaar Id" name="adhid">
+                <input type="text" class="form-control" placeholder="Enter Adhaar Id" name="adhid" maxlength="12">
               </div>
             </div>
             <div class="form-group">
               <label class="control-label col-sm-3" for="contact">Contact No:</label>
               <div class="col-sm-6">
-                <input type="text" class="form-control" placeholder="Enter Contact No" name="contact">
+                <input type="text" class="form-control" placeholder="Enter Contact No" name="contact" maxlength="10">
               </div>
             </div>
             <div class="form-group">
               <label class="control-label col-sm-3" for="email">Email Id:</label>
               <div class="col-sm-6">
-                <input type="text" class="form-control" placeholder="Enter Email Id" name="email">
+                <input type="email" class="form-control" placeholder="Enter Email Id" name="email">
               </div>
             </div>
             <div class="form-group">

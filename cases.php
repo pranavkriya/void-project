@@ -40,7 +40,7 @@
    ?>
 
 
-   <section id="title" class="emerald">
+   <section id="title" class="emerald" >
          <div class="container">
              <div class="row">
                  <div class="col-sm-6">
@@ -68,7 +68,7 @@ while($get = mysql_fetch_assoc($q)){
 
     ?>
 <br><br>
-  <div class="container">
+  <div class="container" style="min-height:240px;">
     <div class="row">
       <div class="col-sm-2"></div>
       <div class="col-sm-4">

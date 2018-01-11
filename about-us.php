@@ -58,11 +58,11 @@
     <section id="about-us" class="container">
         <div class="row">
             <div class="col-sm-6">
-                <h2>What we are</h2>
+                <h2>What we are</h2><br>
                 <p><font size="4"> HOPE is founded with the sole intention of creating one single central reunion registry where mutually consenting loved ones can reunite seamlessly without opening records, waiting for agencies to respond, or spending huge amounts on investigators. We believe that people who are searching for their loved ones should not be denied a chance to reunite due to the bindings of red tape. We also tend to serve as a community that offers support and necessary help to those seeking to find their loved ones.</font></p>
             </div><!--/.col-sm-6-->
             <div class="col-sm-6">
-                <h2>No. Of Orphans(in lacs)</h2>
+                <h2>No. Of Orphans(in lacs)</h2><br>
                 <div>
                     <div class="progress">
                         <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 69%;">
@@ -152,6 +152,21 @@
         </div><!--/#meet-the-team-->
 
     </section><!--/#about-us-->
+
+    <section id="title" class="emerald">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <h1>Contact Us!!</h1>
+                </div>
+            </div>
+            <br><br><font size="4">For any query contact us on this Email ID</font>
+
+            <div class="contact_us">
+              <br>
+            </div>
+        </div>
+    </section><!--/#title-->
 
 
 

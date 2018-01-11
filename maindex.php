@@ -56,6 +56,7 @@ if(isset($_SESSION['login_master'])){
         <div class="container">
             <div class="row">
                 <div class="col-sm-6">
+                  
                     <h1>Master Admin Login</h1>
                 </div>
             </div>
@@ -63,7 +64,8 @@ if(isset($_SESSION['login_master'])){
     </section><!--/#title-->
 
 <br><br>
-      <div class="container" style="min-height:360px;">
+      <div class="container" style="min-height:300px;">
+        <br><br>
         <div class="row">
           <div class="col-sm-4"></div>
           <div class="col-sm-4">
