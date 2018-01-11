@@ -63,7 +63,7 @@ if(isset($_SESSION['login_admin'])){
         </div>
     </header><!--/header-->
 
-    <section id="title" class="emerald">
+    <section id="title" class="emerald" >
         <div class="container">
             <div class="row">
                 <div class="col-sm-6">
@@ -73,7 +73,8 @@ if(isset($_SESSION['login_admin'])){
         </div>
     </section><!--/#title-->
 
-<div class="row" style="min-height:264px;">
+<div class="row" style="min-height:332px;">
+  <br><br>
   <div class="col-sm-1"></div>
   <div class="col-sm-4">
     <section id="registration" class="container">

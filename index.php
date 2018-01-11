@@ -102,7 +102,7 @@
                 <li data-target="#main-slider" data-slide-to="2"></li>
             </ol>
 
-            <div class="carousel-inner">
+            <div class="carousel-inner" content="width=device-width, initial-scale=1.0">
                 <div class="item active" style="background-image: url(images/slider/b1.png)">
                 </div><!--/.item-->
 
@@ -246,7 +246,7 @@
                                             <div class="item-inner">
 
                                                 <h3>
-                                                    Nova - Corporate site template
+                                                    'REVIEWS'
 
                                                     <br><br><br><br><br><br><br><br><br>
                                                 </h3>
@@ -263,12 +263,12 @@
                                             <div class="item-inner">
 
                                                 <h3>
-                                                    Nova - Corporate site template
+                                                    'REVIEWS'
 
                                                     <br><br><br><br><br><br><br><br><br>
                                                 </h3>
 
-                                                <h5 style="text-align:right;">--- &nbsp;Sachin Gupta</h5><br>
+                                                <h5 style="text-align:right;">--- &nbsp;Lakshay Khandelwal</h5><br>
                                             </div>
                                         </div>
                                     </div>
@@ -279,12 +279,12 @@
                                             <div class="item-inner">
 
                                                 <h3>
-                                                    Nova - Corporate site template
+                                                    'REVIEWS'
 
                                                     <br><br><br><br><br><br><br><br><br>
                                                 </h3>
 
-                                                <h5 style="text-align:right;">--- &nbsp;Sachin Gupta</h5><br>
+                                                <h5 style="text-align:right;">--- &nbsp;Priyank Makwana</h5><br>
                                             </div>
                                         </div>
                                     </div>
@@ -306,12 +306,12 @@
                                           <div class="item-inner">
 
                                               <h3>
-                                                  Nova - Corporate site template
+                                                  'REVIEWS'
 
                                                   <br><br><br><br><br><br><br><br><br>
                                               </h3>
 
-                                              <h5 style="text-align:right;">--- &nbsp;Sachin Gupta</h5><br>
+                                              <h5 style="text-align:right;">--- &nbsp;Mohit Sharma</h5><br>
                                           </div>
                                       </div>
                                   </div>
@@ -324,12 +324,12 @@
                                           <div class="item-inner">
 
                                               <h3>
-                                                  Nova - Corporate site template
+                                                  'REVIEWS'
 
                                                   <br><br><br><br><br><br><br><br><br>
                                               </h3>
 
-                                              <h5 style="text-align:right;">--- &nbsp;Sachin Gupta</h5><br>
+                                              <h5 style="text-align:right;">--- &nbsp;Pranav Garg</h5><br>
                                           </div>
                                       </div>
                                   </div>
@@ -339,12 +339,12 @@
                                           <div class="item-inner">
 
                                               <h3>
-                                                  Nova - Corporate site template
+                                                  'REVIEWS'
 
                                                   <br><br><br><br><br><br><br><br><br>
                                               </h3>
 
-                                              <h5 style="text-align:right;">--- &nbsp;Sachin Gupta</h5><br>
+                                              <h5 style="text-align:right;">--- &nbsp;Priyanshi Agrawal</h5><br>
                                           </div>
                                       </div>
                                   </div>

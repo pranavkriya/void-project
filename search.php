@@ -46,8 +46,10 @@
       </div>
   </header><!--/header-->
 
-<section class="search_main container">
+<section class="search_main container" style="min-height:492px;">
 <form action="search.php" method="POST">
+<br>
+<h1> <center>Search</center></h1><br><br>
   <div class="row center">
     <div class="col-sm-2"></div>
     <div class="col-sm-4">
